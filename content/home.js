@@ -6,6 +6,8 @@ module.exports = {
   },
   hero: {
     backgroundImage: '/images/HomePage/HomeBanner.png', // this is an example how to add images, don't forget to delete it
+    sponsorLogo: '/images/HomePage/SponsorLogo.svg',
+    buttonIcon: '/images/HomePage/Button-icon.svg',
     mobileBackgroundImage: '',
     title: 'Title',
     subtitle: 'Subtitle',
