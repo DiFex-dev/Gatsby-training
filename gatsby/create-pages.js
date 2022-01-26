@@ -26,8 +26,6 @@ const createPages = async ({ actions, graphql }) => {
             }
             hero {
               backgroundImage
-              sponsorLogo
-              buttonIcon
               mobileBackgroundImage
               title
               subtitle
