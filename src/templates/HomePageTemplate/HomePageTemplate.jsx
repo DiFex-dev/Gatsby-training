@@ -1,13 +1,19 @@
 import React from 'react';
 
-import {hero} from '../../../content/home';
-import {Hero} from '../../components/Hero';
+import { Hero } from '../../components/Hero';
 import { Layout } from '../../components/Layout';
 
 const HomePageTemplate = ({ pageContext: { PageData } }) => (
-    <Layout PageData={PageData}>
-      <Hero title={hero.title} btnText={hero.btnText} logo={hero.sponsorLogo} background={PageData.hero.backgroundImage} downloadFile={hero.downloadFile} btnIcon={PageData.hero.buttonIcon}/>
-    </Layout>
-  )
+  <Layout title={PageData.seo.title} description={PageData.seo.description} image={PageData.seo.image}>
+    <Hero
+      title={PageData.hero.title}
+      btnText={PageData.hero.btnText}
+      logo={PageData.hero.sponsorLogo}
+      background={PageData.hero.backgroundImage}
+      downloadFile={PageData.hero.downloadFile}
+      btnIcon={PageData.hero.buttonIcon}
+    />
+  </Layout>
+);
 
 export default HomePageTemplate;

@@ -1,11 +1,11 @@
 import { css } from '@emotion/react';
 
 import colors from '../../styles/colors';
-import {p2r} from '../../styles/fonts';
+import { p2r } from '../../styles/fonts';
 
 const gradient = {
-  background: 'transparent linear-gradient(16deg, #bb9b66 0, #c6aa71 48%, #e9d793 86%, #d9c184 100%) 0 0 no-repeat',
-}
+  background: 'transparent linear-gradient(16deg, #BB9B66 0, #C6AA71 48%, #E9D793 86%, #D9C184 100%) 0 0 no-repeat',
+};
 
 const styles = css`
   .template-container {
@@ -19,11 +19,11 @@ const styles = css`
     margin-left: 340px;
   }
 
-  .css-mnjqhk-styling {
+  .iconSocial {
     margin-right: 80px;
   }
 
-  .Title {
+  .title {
     margin-top: ${p2r(4)};
     font-family: Lexia;
     font-size: ${p2r(42)};
@@ -33,7 +33,7 @@ const styles = css`
     letter-spacing: normal;
   }
 
-  .Download-btn {
+  .download-btn {
     position: relative;
     top: ${p2r(40)};
     left: 432px;
@@ -53,15 +53,11 @@ const styles = css`
     cursor: pointer;
     background: ${gradient.background};
     border-radius: 40px;
-  }
 
-  .Download-btn:hover {
-    background: ${colors.white};
-    border: 2px solid ${colors.grayGold};
-  }
-
-  .css-mnjqhk-styling a:hover {
-    background: ${colors.grayGold};
+    &:hover {
+      background: ${colors.white};
+      border: 2px solid ${colors.grayGold};
+    }
   }
 `;
 

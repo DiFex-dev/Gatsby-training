@@ -7,10 +7,6 @@ const styles = css`
       border-bottom: none;
     }
   }
-
-  .css-reex3y-HeadImpact {
-    border-bottom: none;
-  }
 `;
 
 export default styles;
