@@ -31,6 +31,8 @@ const createPages = async ({ actions, graphql }) => {
               mobileBackgroundImage
               title
               subtitle
+              btnText
+              downloadFile
             }
             text {
               first
