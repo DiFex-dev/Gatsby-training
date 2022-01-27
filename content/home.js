@@ -9,8 +9,10 @@ module.exports = {
     sponsorLogo: '/images/HomePage/SponsorLogo.svg',
     buttonIcon: '/images/HomePage/Button-icon.svg',
     mobileBackgroundImage: '',
-    title: 'Title',
+    title: `Gold Demand Trends:<br/>Q2 2021`,
     subtitle: 'Subtitle',
+    btnText: `Download report`,
+    downloadFile: '/images/HomePage/Download.pdf'
   },
   text: {
     first: `First text`,

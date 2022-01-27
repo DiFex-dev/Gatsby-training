@@ -49,7 +49,7 @@ const Layout = ({ children, title, description, image }) => {
       <PreloadStatic />
       <div css={styles}>
         <div className="header-wrapper">
-          <HeadImpact />
+          <HeadImpact HorizontalRule={false} />
         </div>
         <div className="headAdvImpact-wrapper">
           <HeadAdvImpact sponsors={sponsorsList}/>
